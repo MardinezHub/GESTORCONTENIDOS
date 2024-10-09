@@ -77,12 +77,12 @@
       <ul class="d-flex align-items-center">
         <li class="nav-item dropdown pe-3">
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../../source/img/empresario.png">
+            <img src="../../source/img/empresario.png" alt="Imagen">
             <span class="d-none d-md-block dropdown-toggle ps-2 text-light"><?php echo $nombreCompleto; ?></span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;">
+              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Imagen">
               <h6><?php echo $nombreCompleto; ?></h6>
               <span><?php echo $rol; ?></span>
             </li>
@@ -200,9 +200,7 @@
   </aside>
   <main id="main" class="main">
     <div class="pagetitle">
-      <center>
       <h1>Gestor de Contenidos - Integrantes</h1>
-      </center>
     </div>
     <section class="section dashboard">
       <div class="row justify-content-center">
@@ -294,10 +292,8 @@
                               </td>
                               <td scope="row"><img src="../../source/img/Personal/<?php echo $row['foto']; ?>" style="width:150px; height:150px"/></td>
                               <td>
-                                <center>
                                   <button class="btn btn-secondary editar-btn" data-personal='<?php echo json_encode($row); ?>'>Editar <br/> Integrante</button> <br/><br/>
                                   <button class="btn btn-danger eliminar-btn" data-idintegrante='<?php echo $row['idintegrante']; ?>'>Eliminar <br/>Integrante</button>
-                                </center>
                               </td>
                             </tr>
                           <?php endforeach; ?>

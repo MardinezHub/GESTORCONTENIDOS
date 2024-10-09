@@ -79,12 +79,12 @@
       <ul class="d-flex align-items-center">
         <li class="nav-item dropdown pe-3">
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../../source/img/empresario.png">
+            <img src="../../source/img/empresario.png" alt="Imagen">
             <span class="d-none d-md-block dropdown-toggle ps-2 text-light"><?php echo $nombreCompleto; ?></span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;">
+              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Imagen">
               <h6><?php echo $nombreCompleto; ?></h6>
               <span><?php echo $rol; ?></span>
             </li>
@@ -211,9 +211,7 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <center>
               <h5 class="card-title">Páginas</h5>
-              </center>
               <form class="row g-3" action="../../Controller/paginaController.php" method="POST">
                   <div class="col-12">
                       <label for="nombrepagina" class="form-label">Título de la Página:</label>
@@ -265,9 +263,7 @@
       <div class="col-lg-6">
         <div class="card">
             <div class="card-body">
-              <center>
                 <h5 class="card-title">SubPáginas</h5>
-              </center>
                 <form class="row g-3" action="../../Controller/paginaController.php" method="POST">
                     <div class="col-12">
                         <label for="nombresub" class="form-label">Título de la SubPágina:</label>
