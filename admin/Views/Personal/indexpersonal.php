@@ -243,7 +243,7 @@
   <script src="../../source/vendor/tinymce/tinymce.min.js"></script>
   <script src="../../source/vendor/php-email-form/validate.js"></script>
   <script src="../../source/js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../../source/js/jquery-3.7.1.min.js"></script> 
   <script>
       function mostrarAlerta() {
         alert("¡Su perfil se ha actualizado correctamente!");

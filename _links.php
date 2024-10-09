@@ -18,7 +18,7 @@
                         <?php if(mysqli_num_rows($resultado_enlace)>0){ ?>
                             <?php while($row = mysqli_fetch_assoc($resultado_enlace)){ ?>
                             <div class="swiper-slide">
-                                <a href="<?php echo $row['enlace'] ?>" target="_blank"><img src="admin/source/img/Enlace/<?php echo $row['foto'] ?>" alt="<?php echo $row['nomenlace'] ?>" style="width: 500px;height:80px"></a>
+                                <a href="<?php echo $row['enlace'] ?>" target="_blank" rel="noopener"><img src="admin/source/img/Enlace/<?php echo $row['foto'] ?>" alt="<?php echo $row['nomenlace'] ?>" style="width: 500px;height:80px"></a>
                             </div>
                             <?php }?>
                         <?php } else { ?>

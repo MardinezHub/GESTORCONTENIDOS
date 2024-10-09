@@ -231,7 +231,7 @@
                     <?php foreach($enlacedirecto as $row): ?>
                       <tr class="align-middle">
                         <td scope="row"><?php echo $row['nomenlace']; ?></td>
-                        <td scope="row"><a class="btn btn-outline-info" href="<?php echo $row['enlace']; ?>" target="_blank">Visualizar enlace</a></td>
+                        <td scope="row"><a class="btn btn-outline-info" href="<?php echo $row['enlace']; ?>" target="_blank" rel="noopener">Visualizar enlace</a></td>
                         <td scope="row"><img src="../../source/img/Enlace/<?php echo $row['foto'] ?>" style="width: 200px; height:100px;"/></td>
                         <td>
                           <button class="btn btn-secondary editar-btn" data-enlace='<?php echo json_encode($row); ?>'>Editar <br/>Red Social</button><br/><br/>
@@ -298,8 +298,8 @@
   <script src="../../source/vendor/tinymce/tinymce.min.js"></script>
   <script src="../../source/vendor/php-email-form/validate.js"></script>
   <script src="../../source/js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>  
+  <script src="../../source/js/jquery-3.7.1.min.js"></script>
+  <script src="../../source/js/bootstrap.bundle.min.js"></script>  
   <script>
     $(document).ready(function() {
         $('.editar-btn').click(function() {

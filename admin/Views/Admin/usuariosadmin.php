@@ -377,11 +377,11 @@
   <script src="../../source/vendor/simple-datatables/simple-datatables.js"></script>
   <script src="../../source/vendor/tinymce/tinymce.min.js"></script>
   <script src="../../source/vendor/php-email-form/validate.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.datatables.net/v/dt/dt-2.0.8/datatables.min.js"></script>
+  <script src="../../source/js/jquery-3.7.1.min.js"></script>
+  <script src="../../source/js/bootstrap.bundle.min.js"></script>  
   <script src="../../source/js/main.js"></script>
   <!-- DataTables JS library -->
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf8" src="../../source/js/datatables.js"></script>
   <script>
       $(document).ready( function () {
             $('#table_id').DataTable(

@@ -68,7 +68,7 @@
                                         </center>
                                         <i class="fas fa-file-word card-icon"></i>
                                         <h6 class="card-title mt-3"><?php echo $row['nombremarco']; ?></h6><br/>
-                                        <a type="button" class="btn btn-outline-primary" href="<?php echo $row['nombrearchivo'] ?>" target="_blank"><strong>Visualizar</strong></a>
+                                        <a type="button" class="btn btn-outline-primary" href="<?php echo $row['nombrearchivo'] ?>" target="_blank" rel="noopener"><strong>Visualizar</strong></a>
                                     </div>
                                 </div>
                             </div>

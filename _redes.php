@@ -9,7 +9,7 @@
 <div class="social-float">
     <?php if(mysqli_num_rows($resultado_red)>0){ ?>
         <?php while($row = mysqli_fetch_assoc($resultado_red)) { ?>
-            <a href="<?php echo $row['enlace'] ?>" class="enlacesocial" target="_blank">
+            <a href="<?php echo $row['enlace'] ?>" class="enlacesocial" target="_blank" rel="noopener">
                 <img src="admin/source/img/Red/<?php echo $row['imagen'] ?>" alt="red" class="social-icon">
             </a>
         <?php } ?>

@@ -247,7 +247,7 @@
                     <tr class="align-middle">
                       <td scope="row"><?php echo $row['nombremarco']; ?></td>
                       <td scope="row">
-                          <a class="btn btn-outline-danger btn-with-icon" href="<?php echo $row['nombrearchivo']; ?>" target="_blank">
+                          <a class="btn btn-outline-danger btn-with-icon" href="<?php echo $row['nombrearchivo']; ?>" target="_blank" rel="noopener">
                               <img src="../../source/img/pdf.svg" style="width:30px; height:30px" alt="Icono Archivo">
                               <span>Visualizar Archivo</span>
                           </a>
@@ -316,10 +316,10 @@
   <script src="../../source/vendor/tinymce/tinymce.min.js"></script>
   <script src="../../source/vendor/php-email-form/validate.js"></script>
   <script src="../../source/js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="../../source/js/jquery-3.7.1.min.js"></script>
+  <script src="../../source/js/bootstrap.bundle.min.js"></script>  
   <!-- DataTables JS library -->
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf8" src="../../source/js/datatables.js"></script>
   <script>
       $(document).ready( function () {
             $('#table_id').DataTable(

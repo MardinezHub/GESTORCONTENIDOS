@@ -103,7 +103,7 @@
                                     <div>
                                         <ul>
                                             <li>Si tienes alguna queja, reclamo o denuncia, te invitamos a completar nuestro formulario:</li>
-                                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeVabJzx6XeIgCa8qoGDGl1Q0PhE__P5075ShWTd9-BI4CCmg/viewform" class="button" target="_blank">Formulario de Quejas, Reclamos y Denuncias </a></li>
+                                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeVabJzx6XeIgCa8qoGDGl1Q0PhE__P5075ShWTd9-BI4CCmg/viewform" class="button" target="_blank" rel="noopener">Formulario de Quejas, Reclamos y Denuncias </a></li>
                                             <li><b>Por medio de correo electrónico:</b></li>
                                             <li>- Para denuncias, quejas y reclamos: <a href="mailto:defu@unjbg.edu.pe">defu@unjbg.edu.pe</a></li>
                                             <li>- Casos de hostigamiento sexual: <a href="mailto:comite-hostigamiento@unjbg.edu.pe">comite-hostigamiento@unjbg.edu.pe</a></li>

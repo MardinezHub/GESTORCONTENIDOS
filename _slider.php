@@ -18,7 +18,7 @@
                         <h2 class="text-white"><strong>Defensoría Universitaria</sstrong></h2><br/>
                         <h6 class="text-white">El saber te empodera para defender tus derechos</h6><br/>
                         <div>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVabJzx6XeIgCa8qoGDGl1Q0PhE__P5075ShWTd9-BI4CCmg/viewform" class="btn btn-primary" target="_blank">Formula tu queja</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVabJzx6XeIgCa8qoGDGl1Q0PhE__P5075ShWTd9-BI4CCmg/viewform" class="btn btn-primary" target="_blank" rel="noopener">Formula tu queja</a>
                         </div>
                     </div>
                 </div>
