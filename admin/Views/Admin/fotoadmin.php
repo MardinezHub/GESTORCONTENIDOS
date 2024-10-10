@@ -196,9 +196,7 @@
       </li>
       <br><br>
       <li>
-        <center>
           <a class="btn btn-danger rounded" href="../../index.php">Cerrar Sesión</a>
-        </center>
       </li>
     </ul>
   </aside>

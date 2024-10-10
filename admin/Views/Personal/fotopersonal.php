@@ -179,17 +179,13 @@
       </li>
       <br><br>
       <li>
-        <center>
           <a class="btn btn-danger rounded" href="../../index.php">Cerrar Sesión</a>
-        </center>
       </li>
     </ul>
   </aside>
   <main id="main" class="main">
     <div class="pagetitle">
-      <center>
       <h1>Gestor de Contenidos - Fotos</h1>
-      </center>
     </div>
     <section class="section dashboard">      
       <div class="row justify-content-center">
@@ -249,7 +245,7 @@
                         <?php if($fotos): ?>
                           <?php foreach($fotos as $row): ?>
                             <tr class="align-middle">
-                              <td scope="row"><img src="../../source/img/Foto/<?php echo $row['foto'] ?>" style="width:300px; height:200px"></td>
+                              <td scope="row"><img src="../../source/img/Foto/<?php echo $row['foto'] ?>" style="width:300px; height:200px" alt="Personal"></td>
                               <td scope="row">
                               <?php 
                                     if (!empty($row['fk_idpagina'])) {
@@ -316,7 +312,7 @@
                 <center>
                     <label for="current-foto" class="form-label">Foto</label>
                     <div id="current-foto" class="mb-2">
-                    <img id="edit-foto" src="../../source/img/Foto/<?php echo $row['foto']; ?>" style="width:250px; height:200px" />
+                    <img id="edit-foto" src="../../source/img/Foto/<?php echo $row['foto']; ?>" style="width:250px; height:200px" alt="Personal"/>
                     </div>
                 </center>
               </div>

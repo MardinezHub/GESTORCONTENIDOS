@@ -180,9 +180,7 @@
       </li>
       <br><br>
       <li>
-        <center>
           <a class="btn btn-danger rounded" href="../../index.php">Cerrar Sesión</a>
-        </center>
       </li>
     </ul>
   </aside>
@@ -195,9 +193,7 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <center>
               <h5 class="card-title">Lista</h5>
-              </center>
               <form class="row g-3" action="../../Controller/listaController.php" method="POST">
                   <div class="col-12">
                       <label for="titulo" class="form-label">Título de la Lista:</label>
@@ -267,10 +263,8 @@
                               ?>
                             </td>
                             <td>
-                              <center>
                                 <button class="btn btn-secondary editar-btn-lista" data-lista='<?php echo json_encode($row); ?>'>Editar <br/>Lista de Opciones</button><br/><br/>
                                 <button class="btn btn-danger eliminar-btn-lista" data-idlista='<?php echo $row['idlista']; ?>'>Eliminar <br/>Lista de Opciones</button>
-                              </center>
                             </td>
                           </tr>
                       <?php endforeach; ?>

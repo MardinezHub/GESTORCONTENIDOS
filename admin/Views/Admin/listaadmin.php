@@ -197,17 +197,13 @@
       </li>
       <br><br>
       <li>
-        <center>
           <a class="btn btn-danger rounded" href="../../index.php">Cerrar Sesión</a>
-        </center>
       </li>
     </ul>
   </aside>
   <main id="main" class="main">
     <div class="pagetitle">
-      <center>
       <h1>Gestor de Contenidos - Listas - Opciones</h1>
-      </center>
     </div>
     <section class="section dashboard">
       <div class="row">

@@ -174,9 +174,7 @@
       </li>
       <br><br>
       <li>
-        <center>
           <a class="btn btn-danger rounded" href="../../index.php">Cerrar Sesión</a>
-        </center>
       </li>
     </ul>
   </aside>
@@ -272,12 +270,10 @@
                                   }
                                   ?>
                               </td>
-                              <td scope="row"><img src="../../source/img/Personal/<?php echo $row['foto']; ?>" style="width:150px; height:150px"/></td>
+                              <td scope="row"><img src="../../source/img/Personal/<?php echo $row['foto']; ?>" style="width:150px; height:150px" alt="Personal"/></td>
                               <td>
-                                <center>
                                   <button class="btn btn-secondary editar-btn" data-personal='<?php echo json_encode($row); ?>'>Editar <br/>Integrante</button> <br/><br/>
                                   <button class="btn btn-danger eliminar-btn" data-idintegrante='<?php echo $row['idintegrante']; ?>'>Eliminar <br/>Integrante</button>
-                                </center>
                               </td>
                             </tr>
                           <?php endforeach; ?>

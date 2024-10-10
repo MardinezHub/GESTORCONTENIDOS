@@ -176,9 +176,7 @@
       </li>
       <br><br>
       <li>
-        <center>
           <a class="btn btn-danger rounded" href="../../index.php">Cerrar Sesión</a>
-        </center>
       </li>
     </ul>
   </aside>
@@ -232,7 +230,7 @@
                       <tr class="align-middle">
                         <td scope="row"><?php echo $row['nomred']; ?></td>
                         <td scope="row"><a class="btn btn-outline-info" href="<?php echo $row['enlace']; ?>" target="_blank" rel="noopener">Visualizar enlace</a></td>
-                        <td scope="row"><img src="../../source/img/Red/<?php echo $row['imagen'] ?>" style="width: 100px; height:100px;"/></td>
+                        <td scope="row"><img src="../../source/img/Red/<?php echo $row['imagen'] ?>" style="width: 100px; height:100px;" alt="Redes sociales"/></td>
                         <td>
                             <button class="btn btn-secondary editar-btn" data-red='<?php echo json_encode($row); ?>'>Editar <br/>Red Social</button><br/><br/>
                             <button class="btn btn-danger eliminar-btn" data-idred='<?php echo $row['idred']; ?>'>Eliminar <br/>Red Social</button>

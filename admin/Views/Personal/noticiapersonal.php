@@ -177,9 +177,7 @@
       </li>
       <br><br>
       <li>
-        <center>
           <a class="btn btn-danger rounded" href="../../index.php">Cerrar Sesion</a>
-        </center>
       </li>
     </ul>
   </aside>
@@ -239,12 +237,10 @@
                     <td scope="row"><?php echo $row['titulo']; ?></td>
                     <td scope="row"><?php echo $row['descripcion']; ?></td>
                     <td scope="row"><?php echo $row['fechapubli'] ?></td>
-                    <td scope="row"><img src="../../source/img/Noticia/<?php echo $row['foto']; ?>" style="width:200px; height:180px"/></td>
+                    <td scope="row"><img src="../../source/img/Noticia/<?php echo $row['foto']; ?>" style="width:200px; height:180px" alt="Noticia"/></td>
                     <td>
-                      <center>
                         <button class="btn btn-secondary editar-btn" data-noticia='<?php echo json_encode($row); ?>'>Editar Noticia</button><br/><br/>
                         <button class="btn btn-danger eliminar-btn" data-idnoticia='<?php echo $row['idnoticia']; ?>'>Eliminar Noticia</button>
-                      </center>
                     </td>
                   </tr>
                   <?php endforeach; ?>
