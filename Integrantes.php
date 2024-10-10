@@ -31,6 +31,7 @@
 <html lang='es' dir='ltr'>
 <head>
     <?php include_once '_head.php'; ?>
+    <title>Defensoria Universitaria - UNJBG</title>
     <style>
         .card {
             border: none;
@@ -291,11 +292,9 @@
         </section>
         <?php include_once '_links.php'; ?>
     </main>
-    <!-- Footer Start -->
     <?php include_once '_footer.php'; ?>
     <?php include_once '_redes.php'; ?>
     <div class="search-overlay"></div>
-    <!-- jquery -->
     <?php include_once '_js.php'; ?>
 </body>
 </html>

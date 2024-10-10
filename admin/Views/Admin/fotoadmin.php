@@ -369,7 +369,7 @@
   <script src="../../source/vendor/php-email-form/validate.js"></script>
   <script src="../../source/js/main.js"></script>
   <script src="../../source/js/jquery-3.7.1.min.js"></script>
-  <script src="../../source/js/bootstrap.bundle.min.js"></script>  
+  <script src="../../source/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" charset="utf8" src="../../source/js/datatables.js"></script>
   <script>
       $(document).ready( function () {

@@ -26,6 +26,7 @@
 <!DOCTYPE html>
     <html lang='es' dir='ltr'>
         <head>
+        <title>Defensoria Universitaria - UNJBG</title>
             <?php include_once '_head.php'; ?>
             <style>
                 .container-custom {
@@ -253,11 +254,9 @@
                 </section>
             <?php include_once '_links.php'; ?>
             </main>
-            <!-- Footer Start -->
             <?php include_once '_footer.php'; ?>
             <?php include_once '_redes.php'; ?>
             <div class="search-overlay"></div>
-            <!-- jquery -->
             <?php include_once '_js.php'; ?>
     </body>
 </html>

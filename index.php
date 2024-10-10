@@ -24,14 +24,14 @@
 
     mysqli_close($conexion);
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php include '_head.php'; ?>
+    <?php include_once '_head.php'; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <title>Defensoria Universitaria - UNJBG</title>
     <style>
         body {
             font-size: 16px;
@@ -131,11 +131,10 @@
         }
     </style>
 </head>
-
 <body>
-    <?php include '_header.php'; ?>
+    <?php include_once '_header.php'; ?>
     <main>
-        <?php include '_slider.php'; ?>
+        <?php include_once '_slider.php'; ?>
         <section class="about-area bottom-padding1 position-relative">
             <div class="container">
                 <center>
@@ -216,7 +215,6 @@
                         ?>
                     </div>
             </div>
-
             <div class="container">
                 <center>
                     <br/>
@@ -261,7 +259,6 @@
                     }
                     ?>
                 </div>
-
                 <div class="pagination">
                     <?php
                     if ($total_resultados_noticia > $resultados_por_pagina) {
@@ -304,18 +301,14 @@
                 <img src="assets/images/icon/bg-shape-2.png" alt="">
             </div>
         </section>
-        <?php include '_links.php'; ?>
+        <?php include_once '_links.php'; ?>
     </main>
-
-    <!-- Footer Start -->
-    <?php include '_footer.php'; ?>
-    <?php include '_redes.php'; ?>
+    <?php include_once '_footer.php'; ?>
+    <?php include_once '_redes.php'; ?>
     <div class="search-overlay"></div>
-    <!-- JavaScript -->
-    <?php include '_js.php'; ?>
+    <?php include_once '_js.php'; ?>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-    
     <!--Modal de Noticia-->
     <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -352,7 +345,6 @@
             </div>
         </div>
     </div>
-    
     <!--Modal de Comunicado-->
     <div class="modal fade" id="editModalComunicado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -389,7 +381,6 @@
             </div>
         </div>
     </div>
-
     <script>
         $(document).ready(function(){
             $('.visualizar-noticia').click(function(){
@@ -402,7 +393,6 @@
                 $('#editModal').modal('show');
             });
         });
-
         $(document).ready(function(){
             $('.visualizar-comunicado').click(function(){
                 var comunicado = $(this).data('comunicado');
@@ -415,7 +405,6 @@
             });
         });
     </script>
-    
 </body>
 </html>
 

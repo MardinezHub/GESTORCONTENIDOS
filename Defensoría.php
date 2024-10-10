@@ -24,9 +24,10 @@
     $paginaMostrar = 1;
 ?>
 <!DOCTYPE html>
-<html lang='es' dir='ltr'>
+<html lang='es' dir='ltr'>    
 <head>
     <?php include_once '_head.php'; ?>
+    <title>Defensoria Universitaria - UNJBG</title>
     <style>
         .container-custom {
             max-width: 1000px;
@@ -253,11 +254,9 @@
         </section>
         <?php include_once '_links.php'; ?>
     </main>
-    <!-- Footer Start -->
     <?php include_once '_footer.php'; ?>
     <?php include_once '_redes.php'; ?>
     <div class="search-overlay"></div>
-    <!-- jquery -->
     <?php include_once '_js.php'; ?>
 </body>
 </html>

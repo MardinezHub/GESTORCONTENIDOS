@@ -11,7 +11,8 @@
 <!DOCTYPE html>
 <html lang="es" dir="lrt">
 <head>
-    <?php include '_head.php'; ?>
+    <?php include_once '_head.php'; ?>
+    <title>Defensoria Universitaria - UNJBG</title>
     <style>
         .card-container {
             display: flex;
@@ -47,7 +48,7 @@
     </style>
 </head>
 <body>
-    <?php include '_header.php'; ?>
+    <?php include_once '_header.php'; ?>
     <main>
         <section class="about-area bottom-padding1 position-relative">
             <div class="container">
@@ -89,13 +90,11 @@
                 <img src="assets/images/icon/bg-shape-2.png" alt="">
             </div>
         </section>
-        <?php include '_links.php'; ?>
+        <?php include_once '_links.php'; ?>
     </main>
-    <!-- Footer Start -->
-    <?php include '_footer.php'; ?>
-    <?php include '_redes.php'; ?>
+    <?php include_once '_footer.php'; ?>
+    <?php include_once '_redes.php'; ?>
     <div class="search-overlay"></div>
-    <!-- jquery-->
-    <?php include '_js.php'; ?>
+    <?php include_once '_js.php'; ?>
 </body>
 </html>

@@ -20,6 +20,7 @@
 <!DOCTYPE html>
     <html lang='es' dir='ltr'>
         <head>
+            <title>Defensoria Universitaria - UNJBG</title>
             <?php include_once '_head.php'; ?>
             <style>
                 .container-custom {
@@ -211,7 +212,6 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="section-title mb-30">
-                                    <center>
 										<h4>Flujo del trámite de la denuncia, reclamo o queja</h4><br>
 										<?php
 											if ($paginaPrincipalId != 0 && $fotosPrincipal) {
@@ -230,7 +230,6 @@
 												}
 											}
 										?>
-                                    </center>
                                 </div>
                             </div>
                         </div>
@@ -238,11 +237,9 @@
                 </section>
             <?php include_once '_links.php'; ?>
             </main>
-            <!-- Footer Start -->
             <?php include_once '_footer.php'; ?>
             <?php include_once '_redes.php'; ?>
             <div class="search-overlay"></div>
-            <!-- jquery -->
             <?php include_once '_js.php'; ?>
     </body>
 </html>
