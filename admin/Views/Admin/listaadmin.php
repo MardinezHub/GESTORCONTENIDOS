@@ -82,12 +82,12 @@
       <ul class="d-flex align-items-center">
         <li class="nav-item dropdown pe-3">
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../../source/img/empresario.png" alt="Imagen">
+            <img src="../../source/img/empresario.png" alt="Empresario pequeño">
             <span class="d-none d-md-block dropdown-toggle ps-2 text-light"><?php echo $nombreCompleto; ?></span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Imagen">
+              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Empresario">
               <h6><?php echo $nombreCompleto; ?></h6>
               <span><?php echo $rol; ?></span>
             </li>
@@ -462,8 +462,7 @@
   <script src="../../source/vendor/php-email-form/validate.js"></script>
   <script src="../../source/js/main.js"></script>
   <script src="../../source/js/jquery-3.7.1.min.js"></script>
-  <script src="../../source/js/bootstrap.bundle.min.js"></script>  
-  <!-- DataTables JS library -->
+  <script src="../../source/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" charset="utf8" src="../../source/js/datatables.js"></script>
   <script>
       $(document).ready( function () {

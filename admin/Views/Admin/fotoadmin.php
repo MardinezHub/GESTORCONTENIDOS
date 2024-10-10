@@ -81,12 +81,12 @@
       <ul class="d-flex align-items-center">
         <li class="nav-item dropdown pe-3">
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../../source/img/empresario.png" alt="Imagen">
+            <img src="../../source/img/empresario.png" alt="Empresario pequeño">
             <span class="d-none d-md-block dropdown-toggle ps-2 text-light"><?php echo $nombreCompleto; ?></span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Imagen">
+              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Empresario">
               <h6><?php echo $nombreCompleto; ?></h6>
               <span><?php echo $rol; ?></span>
             </li>
@@ -264,7 +264,7 @@
                         <?php if($fotos): ?>
                           <?php foreach($fotos as $row): ?>
                             <tr class="align-middle">
-                              <td scope="row"><img src="../../source/img/Foto/<?php echo $row['foto'] ?>" style="width:300px; height:200px" alt="Imagen"></td>
+                              <td><img src="../../source/img/Foto/<?php echo $row['foto'] ?>" style="width:300px; height:200px" alt="Pagina vista"></td>
                               <td scope="row">
                               <?php 
                                     if (!empty($row['fk_idpagina'])) {
@@ -330,7 +330,7 @@
               <div class="mb-3">
                     <label for="current-foto" class="form-label">Foto</label>
                     <div id="current-foto" class="mb-2">
-                    <img id="edit-foto" src="../../source/img/Foto/<?php echo $row['foto']; ?>" style="width:250px; height:200px" alt="Imagen" />
+                    <img id="edit-foto" src="../../source/img/Foto/<?php echo $row['foto']; ?>" style="width:250px; height:200px" alt="Almacen de vista" />
                     </div>
               </div>
               <div class="mb-3">
@@ -370,7 +370,6 @@
   <script src="../../source/js/main.js"></script>
   <script src="../../source/js/jquery-3.7.1.min.js"></script>
   <script src="../../source/js/bootstrap.bundle.min.js"></script>  
-  <!-- DataTables JS library -->
   <script type="text/javascript" charset="utf8" src="../../source/js/datatables.js"></script>
   <script>
       $(document).ready( function () {

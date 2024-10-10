@@ -76,12 +76,12 @@
       <ul class="d-flex align-items-center">
         <li class="nav-item dropdown pe-3">
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="../../source/img/empresario.png" alt="Imagen">
+            <img src="../../source/img/empresario.png" alt="Empresario pequeño">
             <span class="d-none d-md-block dropdown-toggle ps-2 text-light"><?php echo $nombreCompleto; ?></span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Imagen">
+              <img src="../../source/img/empresario.png" style="width: 90px; height:90px;" alt="Empresario">
               <h6><?php echo $nombreCompleto; ?></h6>
               <span><?php echo $rol; ?></span>
             </li>
@@ -247,7 +247,7 @@
                       <tr class="align-middle">
                         <td scope="row"><?php echo $row['nomenlace']; ?></td>
                         <td scope="row"><a class="btn btn-outline-info" href="<?php echo $row['enlace']; ?>" target="_blank" rel="noopener">Visualizar enlace</a></td>
-                        <td scope="row"><img src="../../source/img/Enlace/<?php echo $row['foto'] ?>" style="width: 200px; height:100px;" alt="Imagen"/></td>
+                        <td><img src="../../source/img/Enlace/<?php echo $row['foto'] ?>" style="width: 200px; height:100px;" alt="Enlace Directo"/></td>
                         <td>
                           <button class="btn btn-secondary editar-btn" data-enlace='<?php echo json_encode($row); ?>'>Editar <br/>Enlace Directo</button><br/><br/>
                           <button class="btn btn-danger eliminar-btn" data-idenlace='<?php echo $row['idenlace']; ?>'>Eliminar <br/>Enlace Directo</button>
